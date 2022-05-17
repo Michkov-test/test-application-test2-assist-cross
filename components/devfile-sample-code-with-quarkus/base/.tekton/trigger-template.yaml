@@ -26,7 +26,7 @@ spec:
       - name: git-url
         value: https://github.com/devfile-samples/devfile-sample-code-with-quarkus
       - name: output-image
-        value: quay.io/mkovarik/devfile-sample-code-with-quarkus:$(tt.params.git-revision)
+        value: quay.io/redhat-appstudio/user-workload:test2-devfile-sample-code-with-quarkus-$(tt.params.git-revision)
       - name: dockerfile
         value: src/main/docker/Dockerfile.jvm.staged
       - name: path-context

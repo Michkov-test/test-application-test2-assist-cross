@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-code-with-quarkus
     spec:
       containers:
-      - image: quay.io/mkovarik/devfile-sample-code-with-quarkus
+      - image: quay.io/redhat-appstudio/user-workload:test2-devfile-sample-code-with-quarkus
         imagePullPolicy: Always
         name: container-image
         resources: {}
