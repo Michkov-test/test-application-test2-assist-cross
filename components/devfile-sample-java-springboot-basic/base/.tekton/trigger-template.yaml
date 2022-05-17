@@ -26,7 +26,7 @@ spec:
       - name: git-url
         value: https://github.com/devfile-samples/devfile-sample-java-springboot-basic
       - name: output-image
-        value: quay.io/mkovarik/devfile-sample-java-springboot-basic:$(tt.params.git-revision)
+        value: quay.io/redhat-appstudio/user-workload:test2-devfile-sample-java-springboot-basic-$(tt.params.git-revision)
       - name: dockerfile
         value: docker/Dockerfile
       - name: path-context
